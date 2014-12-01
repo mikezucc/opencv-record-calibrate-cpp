@@ -1,0 +1,17 @@
+﻿Build started 12/1/2014 2:03:03 AM.
+     1>Project "C:\Users\mikez_000\Documents\GitHub\opencv-tests\SetupTest\SetupTest\SetupTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Calibrate.cpp Recorder.cpp
+         Calibrate.cpp
+         Recorder.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mikez_000\Documents\GitHub\opencv-tests\SetupTest\x64\Debug\SetupTest.exe" /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\staticlib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_flann249d.lib opencv_legacy249d.lib opencv_contrib249d.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib zlibd.lib comctl32.lib gdi32.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\mikez_000\Documents\GitHub\opencv-tests\SetupTest\x64\Debug\SetupTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mikez_000\Documents\GitHub\opencv-tests\SetupTest\x64\Debug\SetupTest.lib" /MACHINE:X64 x64\Debug\Calibrate.obj
+         x64\Debug\InitialTest.obj
+         x64\Debug\Recorder.obj
+         SetupTest.vcxproj -> C:\Users\mikez_000\Documents\GitHub\opencv-tests\SetupTest\x64\Debug\SetupTest.exe
+     1>Done Building Project "C:\Users\mikez_000\Documents\GitHub\opencv-tests\SetupTest\SetupTest\SetupTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.28
