@@ -32,6 +32,13 @@ static double computeReprojectionErrors(const vector<vector<Point3f> >& objectPo
 	return std::sqrt(totalErr / totalPoints);
 }
 
+static void saveCameraParams(Mat& cameraMatrix, Mat& distCoeffs)
+{
+	FileStorage fs("cameraParams.xml", FileStorage::WRITE);
+	fs << "Camera_Matrix" << cameraMatrix;
+	fs << "Distortion_Coefficients" << distCoeffs;
+}
+
 int main()
 {
 	double widthInp, heightInp;
@@ -97,6 +104,9 @@ int main()
 	double totalAvgErr = computeReprojectionErrors(objPoints, imgPoints, rvecs, tvecs, cameraMatrix, distCoeffs, reprojErrs);
 
 	cout << "total average error: " << totalAvgErr << endl;
+	cout << "Saving parameters..." << endl;
+	saveCameraParams(cameraMatrix, distCoeffs);
+	cout << "Done saving to \"cameraParams.xml\"" << endl;
 
 	cvWaitKey(0);
 

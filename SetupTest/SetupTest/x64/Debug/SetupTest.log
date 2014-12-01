@@ -1,4 +1,4 @@
-﻿Build started 12/1/2014 1:34:54 PM.
+﻿Build started 12/1/2014 1:44:56 PM.
      1>Project "C:\Users\mikez_000\Documents\GitHub\opencv-record-calibrate-cpp\SetupTest\SetupTest\SetupTest.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Calibrate.cpp
@@ -12,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.72
+Time Elapsed 00:00:02.74
