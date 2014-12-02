@@ -39,7 +39,7 @@ static void saveCameraParams(Mat& cameraMatrix, Mat& distCoeffs)
 	fs << "Distortion_Coefficients" << distCoeffs;
 }
 
-int main()
+int main4()
 {
 	double widthInp, heightInp;
 
